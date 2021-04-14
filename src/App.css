@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.App h1 {
+  color: rgb(31, 63, 168);
+}
+.product_title {
+  color: rgb(72, 69, 231);
+  cursor: pointer;
+}
+.product_title:hover {
+  color: rgb(31, 63, 168);
+}

@@ -7,10 +7,65 @@
 .App h1 {
   color: rgb(31, 63, 168);
 }
+.product_list {
+  min-width: 1000px;
+}
 .product_title {
   color: rgb(72, 69, 231);
   cursor: pointer;
 }
 .product_title:hover {
   color: rgb(31, 63, 168);
+}
+.filter_div {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.filter_div input {
+  width: 400px;
+  
+}
+.filter_div button {
+  margin-left: 10px;
+}
+.vendor_list {
+  z-index: 100;
+  display: block;
+  position: absolute;
+  right: 45%;
+  top: 110%;
+  border-radius: 8%;
+  background-color: white;
+  border: 1px solid rgb(226, 226, 226);
+  padding: 10px;
+}
+.vendor_list ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.vendor_list p {
+  cursor: pointer;
+  color:rgb(31, 63, 168)
+}
+.vendor_list p:hover {
+  text-decoration: underline;
+}
+.btn_approve {
+  cursor: pointer;
+  padding: 3px 6px;
+  border-radius: 8px;
+  color: rgba(0, 156, 60);
+  border:rgb(0, 156, 60, 0.5) 1px solid;
+  background-color: rgb(0, 156, 60, 0.1);
+  opacity: 0.7;
+}
+.btn_approve:hover {
+  opacity: 1;
+}
+.btn_approve:focus {
+  outline: none;
+  border:rgb(0, 156, 60) 1px solid;
+
 }
